@@ -1,4 +1,8 @@
-# MIMIC_II_HF-Analysis
+# MIMIC-III Database: Heart Failure subtypes analysis
+## Capstone Project
+## Data Scientist Nanodegree
+## Author: Francisco J. Londono
+
 
 ## Introduction
 Cardiovascular diseases are the leading cause of death worldwide affecting millions of each year. Among these, heart failure is becoming more prevalent, especially in an ageing population impacted by poor lifestyles (poor eating habits, sedentarism, smoking, pollution, etc.).
