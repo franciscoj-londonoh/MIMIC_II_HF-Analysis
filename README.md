@@ -18,10 +18,10 @@ In this context, the MIMIC-III database can provide a unique insight into the im
 
 ![EDA_HF](https://github.com/franciscoj-londonoh/MIMIC_II_HF-Analysis/blob/main/Images/3DiagnosisHF.png)
 
-## Part 2: Subsample Data Analysis (Heart Failure)
+## [Part 2](https://github.com/franciscoj-londonoh/MIMIC_II_HF-Analysis/blob/main/Part2_SubsampleDataAnalysisHF.ipynb): Subsample Data Analysis (Heart Failure)
 The second part of the analysis focuses on the systolic and diastolic heart failure patients data, including some common lab exams and physiological measurements, such as hemodynamics, arterial blood gas (ABG), Hematology, Chemistry, Fluids - Other (Not In Use), Blood Products/Colloids, Labs, Cardiovascular (Pacer Data), Tandem Heart, non-invasive cardiac output monitor (NICOM). Hemodynamic measurements are the most relevant measurements to determine heart failure subtype but a deep analysis of the available data in the database showed that there were too few data points, or patients with a complete dataset, affecting the potential modeling of the data. Thus, other complementary measurements were included to build a more complete DataFrame. 
 
-## Part 3: Data Modelling
+## [Part 3](https://github.com/franciscoj-londonoh/MIMIC_II_HF-Analysis/blob/main/Part3_DataModelling.ipynb): Data Modelling
 Finally, on the third part of the analysis, the built DataFrame was used to propose a model to classify the two heart failure subtypes based on the available physiological measurements. To perform this modelling, a pipeline was created, first imputing the data using a KNN imputer, and then a Random Forest Classifier is implemented, and a cross validation scheme used to train the model, obtaining an accuracy and a F1 score of around 98% to classify heart failure subtypes. An additional analysis on the sample population shows that both categories (systolic and diastolic heart failure) are balanced in the DataFrame, and that imputed values are around only 3.3% of the total data.
 
 ![MIMIC_HF_Modelling](https://github.com/franciscoj-londonoh/MIMIC_II_HF-Analysis/blob/main/Images/6Features.png)
