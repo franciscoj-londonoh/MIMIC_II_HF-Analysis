@@ -1,7 +1,9 @@
 # MIMIC-III Database: Heart Failure subtypes analysis
-Capstone Project
-Data Scientist Nanodegree
-Author: Francisco J. Londono
+**Capstone Project**
+
+**Data Scientist Nanodegree**
+
+**Author: Francisco J. Londono**
 
 
 ## Introduction
