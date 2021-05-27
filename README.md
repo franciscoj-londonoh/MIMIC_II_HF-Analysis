@@ -14,6 +14,8 @@ The population more affected by heart failure is also, in general, differentiate
 ## Part 1: MIMIC-III database General Exploration Data Analysis 
 In this context, the MIMIC-III database can provide a unique insight into the impact of heart failure and its subtypes in the daily routine of an emergency care unit, giving a more real idea of the type of population affected by the disease, the type of used treatment, and the final outcome of patients after an emergency related to the disease evolution. Thus, following there is an analysis of the MIMIC-III database, starting with an overview of the most common diagnosis of patients, then the analysis focuses on cardiovascular diseases related directly with heart failure, highlighting the population with a systolic and a diastolic heart failure diagnosis, and comparing treatment followed at the ICU. 
 
+![EDA_HF](https://github.com/franciscoj-londonoh/MIMIC_II_HF-Analysis/blob/main/Images/3DiagnosisHF.png)
+
 ## Part 2: Subsample Data Analysis (Heart Failure)
 The second part of the analysis focuses on the systolic and diastolic heart failure patients data, including some common lab exams and physiological measurements, such as hemodynamics, arterial blood gas (ABG), Hematology, Chemistry, Fluids - Other (Not In Use), Blood Products/Colloids, Labs, Cardiovascular (Pacer Data), Tandem Heart, non-invasive cardiac output monitor (NICOM). Hemodynamic measurements are the most relevant measurements to determine heart failure subtype but a deep analysis of the available data in the database showed that there were too few data points, or patients with a complete dataset, affecting the potential modeling of the data. Thus, other complementary measurements were included to build a more complete DataFrame. 
 
