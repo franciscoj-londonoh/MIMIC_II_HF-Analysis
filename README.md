@@ -34,4 +34,4 @@ A fundamental step to analyze the MIMIC database in the context of Heart Failure
 A Classification model is proposed to differentiate Heart Failure subtypes. Specifically, a Random Forest Classifier implement within a pipeline that includes an imputation step. The general accuracy and F1 score of the model show values above 98%. Thus, an analysis of the feature importance for the model is also included, as an analysis of the imputation data process to assess the final results in context. The final implemented model accomplishes the classification task proposed.
 
 The report publication can be found at: 
-https://franciscoj-londonoh.medium.com/mimic-iii-database-heart-failure-sub-types-analysis-42cd6b2abdad
+https://franciscoj-londonoh.medium.com/mimic-iii-database-heart-failure-sub-types-analysis-52fcc503dcd6
